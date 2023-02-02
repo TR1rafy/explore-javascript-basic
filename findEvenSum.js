@@ -1,11 +1,12 @@
 
 function findEvenSum(numbers){
-    let sum = 0;
+    let sum = [];
     for(let i=0; i<numbers.length;i++){
        const index= i;
        const element =numbers[index];
-       sum= sum + element;
-       if(element % 2 != 0){
+        
+       if(element % 4 != 0){
+        sum.push(element);
         console.log(index,element,sum);
        }
       
