@@ -4,13 +4,18 @@
 //     console.log(fibo);
 // }
 
-function checkFibonacci(number){
-    const fibo = [0 ,1];
-    for (let i=2; i<number;i++){
-        fibo[i]= fibo[i-1] + fibo[i-2];
-        console.log(fibo);
-    }
-    return fibo;
+// function checkFibonacci(number){
+//     const fibo = [0 ,1];
+//     for (let i=2; i<number;i++){
+//         fibo[i]= fibo[i-1] + fibo[i-2];
+//         console.log(fibo);
+//     }
+//     return fibo;
 
-}
-checkFibonacci(20);
+// }
+// checkFibonacci(20);
+
+function add(a, b){
+    return a + b;
+  }
+  console.log(add("adam" + "eve"))
